@@ -32,7 +32,13 @@
                             <outlet property="delegate" destination="voU-uu-0li" id="kn6-XL-5Ag"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ToDoList" id="jN6-jX-yyz"/>
+                    <navigationItem key="navigationItem" title="ToDoList" id="jN6-jX-yyz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8Ex-FG-ENV">
+                            <connections>
+                                <action selector="UIBarButton:" destination="voU-uu-0li" id="MwR-3R-cYY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="15v-fN-Y07" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
