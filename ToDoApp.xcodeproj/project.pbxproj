@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51D9A98D2152849D00D7E12A /* MidalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9A98C2152849D00D7E12A /* MidalClass.swift */; };
 		51F165F221511C8F0025C7C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F165F121511C8F0025C7C2 /* AppDelegate.swift */; };
 		51F165F421511C8F0025C7C2 /* ToDoListViewControlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F165F321511C8F0025C7C2 /* ToDoListViewControlar.swift */; };
 		51F165F721511C8F0025C7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F165F521511C8F0025C7C2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51D9A98C2152849D00D7E12A /* MidalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidalClass.swift; sourceTree = "<group>"; };
 		51F165EE21511C8F0025C7C2 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F165F121511C8F0025C7C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F165F321511C8F0025C7C2 /* ToDoListViewControlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewControlar.swift; sourceTree = "<group>"; };
@@ -35,11 +37,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51D9A98E2152857100D7E12A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				51D9A98C2152849D00D7E12A /* MidalClass.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		51D9A98F2152859400D7E12A /* SupportinFile */ = {
+			isa = PBXGroup;
+			children = (
+				51F165F821511C900025C7C2 /* Assets.xcassets */,
+			);
+			path = SupportinFile;
+			sourceTree = "<group>";
+		};
 		51F165E521511C8F0025C7C2 = {
 			isa = PBXGroup;
 			children = (
+				51D9A98F2152859400D7E12A /* SupportinFile */,
 				51F165F021511C8F0025C7C2 /* ToDoApp */,
 				51F165EF21511C8F0025C7C2 /* Products */,
+				51D9A98E2152857100D7E12A /* DataModel */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +77,6 @@
 				51F165F121511C8F0025C7C2 /* AppDelegate.swift */,
 				51F165F321511C8F0025C7C2 /* ToDoListViewControlar.swift */,
 				51F165F521511C8F0025C7C2 /* Main.storyboard */,
-				51F165F821511C900025C7C2 /* Assets.xcassets */,
 				51F165FA21511C900025C7C2 /* LaunchScreen.storyboard */,
 				51F165FD21511C910025C7C2 /* Info.plist */,
 			);
@@ -138,6 +157,7 @@
 			files = (
 				51F165F421511C8F0025C7C2 /* ToDoListViewControlar.swift in Sources */,
 				51F165F221511C8F0025C7C2 /* AppDelegate.swift in Sources */,
+				51D9A98D2152849D00D7E12A /* MidalClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
